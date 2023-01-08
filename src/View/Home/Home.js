@@ -4,6 +4,7 @@ import TitleProfile from "../Components/TitleProfile/TitleProfile";
 import BodyCompanyAboutUs from "../Components/BodyCompanyAboutUs/BodyCompanyAboutUs";
 import BodyCompanyOurValues from "../Components/BodyCompanyOurValues/BodyCompanyOurValues";
 import OurSpecialitys from "../Components/BodyCompanySpeciality/OurSpecialitys";
+import Footer from "../Components/Footer/Footer";
 
 export default function Home() {
   const AboutUs = useRef(null);
@@ -27,6 +28,7 @@ export default function Home() {
       <div ref={OurSpeciality}>
         <OurSpecialitys />
       </div>
+      <Footer />
     </>
   );
 }
