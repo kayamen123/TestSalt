@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoCompany from "../../../Assets/logo_foot.png";
+import LogoCompany from "../../../Assets/logo_footer.png";
 import "./Footer.scss";
 import { FaInstagram, FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
 import { ImArrowUp } from "react-icons/im";
