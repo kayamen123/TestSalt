@@ -1,0 +1,46 @@
+.title-carousel {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 6em !important;
+  color: #029fe4;
+  line-height: 6.75rem;
+}
+
+.sub-carousel-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px !important;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.sub-carousel {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px !important;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #777777;
+}
+
+.background-carousel {
+  background-image: url("../../../../../Assets/background-white.jpg");
+}
+
+@media screen and (min-width: 576px) and (max-width: 1600px) {
+  .title-carousel {
+    font-size: 4em !important;
+  }
+
+  .sub-carousel-title {
+    font-size: 25px;
+  }
+
+  .sub-carousel {
+    font-size: 15px !important;
+  }
+}

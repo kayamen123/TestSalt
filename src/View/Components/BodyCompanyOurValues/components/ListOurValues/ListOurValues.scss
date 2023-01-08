@@ -1,0 +1,32 @@
+.title-list-values {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  color: #029fe4;
+  line-height: 6.75rem;
+}
+.sub-list-values {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px !important;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: black;
+  text-align: justify;
+}
+
+.img-center {
+  align-self: center;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1600px) {
+  .title-list-values {
+    font-size: 25px !important;
+  }
+
+  .sub-list-values {
+    font-size: 15px !important;
+  }
+}

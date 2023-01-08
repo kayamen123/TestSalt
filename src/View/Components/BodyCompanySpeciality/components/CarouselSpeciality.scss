@@ -1,0 +1,28 @@
+.title-carousel-special {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  color: black;
+  line-height: 6.75rem;
+}
+
+.sub-carousel-special {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px !important;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #a7a7a7;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1600px) {
+  .title-carousel-special {
+    font-size: 25px !important;
+  }
+
+  .sub-carousel-special {
+    font-size: 15px !important;
+  }
+}
